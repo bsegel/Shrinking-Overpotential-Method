@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="Shrinking-Overpotential-Method",
-    version="1.0",
+    version="0.1.0",
     author="Becca Segel",
     author_email="becca.segel@pitt.edu",
     description="Electrochemical method toolkit to analyze kinetics of a three electrode cell ",
@@ -13,4 +13,12 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/bsegel/Shrinking-Overpotential-Method",
     packages=setuptools.find_packages()
+    install_requires=[
+        'numpy',
+        'scipy',
+        'functools',
+        'csv',
+    'pyyaml',
+    ],
+    extras_require={'plotting': ['matplotlib']}
 )
