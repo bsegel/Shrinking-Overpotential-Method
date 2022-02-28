@@ -1,2 +1,2 @@
 # Shrinking-Overpotential-Method
-Electronic Supplementary Information
+Electronic Supplementary Information for RCS journal article
